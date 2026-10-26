@@ -1,0 +1,28 @@
+# Core dependencies
+pymupdf==1.23.8
+pdf2image==1.16.3
+pytesseract==0.3.10
+pillow==10.1.0
+opencv-python-headless==4.8.1.78
+
+# Semantic search & embeddings
+sentence-transformers==2.2.2
+huggingface-hub==0.25.2
+torch==2.1.1
+
+# Database (optional)
+pymongo==4.6.0
+
+# LLM integration (optional)
+openai==1.0.1
+httpx==0.27.2
+google-generativeai==0.8.3
+
+# API framework
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Utilities
+python-dotenv==1.0.0
+numpy==1.24.3
+requests==2.31.0
